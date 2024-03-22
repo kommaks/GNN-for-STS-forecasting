@@ -5,6 +5,8 @@ The project is made for "Machine learning" course at Skoltech. The idea is to ap
 ## Requirements
 **Create enviroment in Conda**
 
+**Python**: 3.10.12
+
 Run the following commands to create a venv and install python dependencies:
 ```setup
 conda create -n gnn_for_sts python=3.10.12
