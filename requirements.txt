@@ -1,0 +1,23 @@
+numpy==1.25.2
+geopandas==0.13.2
+pandas==1.5.3
+pandas-datareader==0.10.0
+pandas-gbq==0.19.2
+pandas-stubs==1.5.3.230304
+sklearn-pandas==2.2.0
+scipy==1.11.4
+matplotlib==3.7.1
+matplotlib-inline==0.1.6
+matplotlib-venn==0.11.10
+cloudpickle==2.2.1
+jsonpickle==3.0.3
+pickleshare==0.7.5
+sklearn-pandas==2.2.0
+scikit-learn==1.2.2
+prophet==1.1.5
+torch @ https://download.pytorch.org/whl/cu121/torch-2.2.1%2Bcu121-cp310-cp310-linux_x86_64.whl#sha256=1adf430f01ff649c848ac021785e18007b0714fdde68e4e65bd0c640bf3fb8e1
+torchaudio @ https://download.pytorch.org/whl/cu121/torchaudio-2.2.1%2Bcu121-cp310-cp310-linux_x86_64.whl#sha256=23f6236429e2bf676b820e8e7221a1d58aaf908bff2ba2665aa852df71a97961
+torchdata==0.7.1
+torchsummary==1.5.1
+torchtext==0.17.1
+torchvision @ https://download.pytorch.org/whl/cu121/torchvision-0.17.1%2Bcu121-cp310-cp310-linux_x86_64.whl#sha256=27af47915f6e762c1d44e58e8088d22ac97445668f9f793524032b2baf4f34bd
