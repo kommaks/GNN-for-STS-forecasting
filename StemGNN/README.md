@@ -18,7 +18,7 @@ pip install -r requirements.txt
 The training procedure and evaluation procedure are all included in the `main.py`. To train and evaluate on some dataset, run the following command:
 
 ```train & evaluate
-python main.py --train True --evaluate True --dataset <name of csv file> --output_dir <path to output directory> --n_route <number of nodes> --window_size <length of sliding window> --horizon <predict horizon> --norm_method z_score --train_length 7 --validate_length 2 --test_length 1
+python main.py --train True --evaluate True --cross_val False --n_retrains 30 --dataset <name of csv file> --output_dir <path to output directory> --window_size <length of sliding window> --horizon <predict horizon>
 ```
 
 The detailed descriptions about the parameters are as following:
@@ -27,18 +27,18 @@ The detailed descriptions about the parameters are as following:
 | --- | --- |
 | train | whether to enable training, default True |
 | evaluate | whether to enable evaluation, default True |
-| dataset | file name of input csv |
-| window_size | length of sliding window, default 12 |
-| horizon | predict horizon, default 3 |
-
-| epoch | epoch size during training |
-| lr | learning rate |
+| cross_val | whether to run hyperparameters search, default False |
+| n_retrains | Number of retrains of the model with fixed hyperparameters, default 30 |
+| dataset | file name of input csv, default atm_transactions |
+| window_size | length of sliding window, default 30 |
+| horizon | predict horizon, default 5 |
+| epoch | epoch size during training, default 80 |
+| lr | learning rate, default 1.09e-3 |
 | multi_layer | hyper parameter of STemGNN which controls the parameter number of hidden layers, default 5 |
 | device | device that the code works on, 'cpu' or 'cuda:x' | 
-| validate_freq | frequency of validation |
-| batch_size | batch size |
-| norm_method | method for normalization, 'z_score' or 'min_max' |
-| early_stop | whether to enable early stop, default False |
+| validate_freq | frequency of validation, default 10 |
+| batch_size | batch size, default 64 |
+| optimizer | Adam / AdamW / RMSprop, default AdamW |
 
 
 
