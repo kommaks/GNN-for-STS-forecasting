@@ -21,7 +21,7 @@ pip install -r requirements.txt
 The training procedure and evaluation procedure are all included in the `main.py`. To train and evaluate on some dataset, run the following command:
 
 ```train & evaluate
-python main.py --train True --evaluate True --cross_val False --n_retrains 30 --dataset <name of csv file> --output_dir <path to output directory> --window_size <length of sliding window> --horizon <predict horizon>
+python main.py --train True --evaluate True --cross_val False --n_retrains 30
 ```
 
 The detailed descriptions about the parameters are as following:
