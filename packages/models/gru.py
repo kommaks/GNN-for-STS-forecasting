@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-from utils import calculate_laplacian_with_self_loop
+from packages.utils.utils import calculate_laplacian_with_self_loop
 import argparse
 
 class GRULinear(nn.Module):

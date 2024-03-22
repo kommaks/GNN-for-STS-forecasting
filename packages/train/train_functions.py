@@ -1,6 +1,6 @@
 import numpy as np
 import torch
-import utils
+from packages.utils.utils import evaluation
 
 def epoch_train(inputs, labels, clf, optimizer, criterion, num_nodes):
 
@@ -60,7 +60,7 @@ def train(trainX, trainY, testX, testY, clf_nn, criterion, optimizer, training_e
 
         test_label = torch.reshape(testY,[-1,num_nodes])
 
-        rmse, mae, wmape_score, mape_score = utils.evaluation(test_label, test_output)
+        rmse, mae, wmape_score, mape_score = evaluation(test_label, test_output)
         test_rmse.append(rmse)
         test_wmape.append(wmape_score)
 
