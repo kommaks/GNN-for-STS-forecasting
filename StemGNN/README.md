@@ -2,18 +2,14 @@
 * [This code](https://github.com/microsoft/StemGNN) taken as reference.
 
 ## Requirements
+**Create enviroment in Conda**
 
-Recommended version of OS & Python:
+**Python**: 3.7
 
-* **OS**: Ubuntu 18.04.2 LTS
-* **Python**: python3.7 ([instructions to install python3.7](https://linuxize.com/post/how-to-install-python-3-7-on-ubuntu-18-04/)).
-
-To install python dependencies, virtualenv is recommended, `sudo apt install python3.7-venv` to install virtualenv for python3.7. All the python dependencies are verified for `pip==20.1.1` and `setuptools==41.2.0`. Run the following commands to create a venv and install python dependencies:
-
+Run the following commands to create a venv and install python dependencies:
 ```setup
-python3.7 -m venv venv
-source venv/bin/activate
-pip install --upgrade pip
+conda create -n stem_gnn python=3.7
+conda activate stem_gnn
 pip install -r requirements.txt
 ```
 ## Training and Evaluation
