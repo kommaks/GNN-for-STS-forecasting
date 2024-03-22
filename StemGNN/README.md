@@ -1,3 +1,6 @@
+
+* [This code](https://github.com/microsoft/StemGNN) taken as reference.
+
 ## Requirements
 
 Recommended version of OS & Python:
