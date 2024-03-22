@@ -52,13 +52,12 @@ The manuscript can be visited at https://www.semanticscholar.org/paper/Spectral-
 We compared muptivariate GNN - based models with baseline. We calculated RMSE and WMAPE metrics for them.
 | Models | RMSE | MAPE(%) |
 | -----   | ---- | ---- |
-| GCN | 0.027 | 43.18 % |
-| GRU | 0.023 | 36.3 % |
-| T-GCN | 0.025 | 37.79 % |
-| A3T-GCN | 0.01973 | 31.11 % |
-| StemGNN | - | 32.2 $\pm$ 1.4 % |
-| Prophet | 0.023 | 30.01 % |
-|  |  | (Best: 29.1 %) |
+| GCN | 0.027 | 43.18 |
+| GRU | 0.023 | 36.3 |
+| T-GCN | 0.025 | 37.79 |
+| A3T-GCN | 0.01973 | 31.11 |
+| StemGNN | - | 32.2 $\pm$ 1.4 (Best: 29.1) |
+| Prophet | 0.023 | 30.01 |
 
 
 ## Authors
