@@ -3,7 +3,7 @@
 This repository includes our works on Graph representation learning and its application on Cash Demand Prediction
 
 ## Requirements
-
+**Create enviroment in Conda**
 
 ```setup
 conda create -n gnn_for_sts python=3.10.12
