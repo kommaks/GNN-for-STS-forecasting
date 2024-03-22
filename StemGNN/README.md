@@ -6,7 +6,7 @@
 
 **Python**: 3.7
 
-Run the following commands to create a venv and install python dependencies:
+Run the following commands to create conda environment and install python dependencies:
 ```setup
 conda create -n stem_gnn python=3.7
 conda activate stem_gnn
