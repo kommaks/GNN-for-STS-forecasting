@@ -1,7 +1,5 @@
 # Application of Graph Neural Network to spatial time series forecasting problem
 
-This repository includes our works on Graph representation learning and its application on Cash Demand Prediction.
-
 The project is made for "Machine learning" course at Skoltech. The idea is to apply different Graph Convolutional Networks to Cash Demand problem and compare it to Prophet model.
 
 ## Requirements
