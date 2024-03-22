@@ -50,14 +50,14 @@ The manuscript can be visited at https://www.semanticscholar.org/paper/Spectral-
 ## Authors
 
 1. Maksim Komiakov, [@kommaks](https://github.com/kommaks)
-2. Michil Trofimov,
-3. Khasan Akhmadiev,
-4. Andrei Volodichev, 
+2. Michil Trofimov, [@michtrofimov](https://github.com/michtrofimov)
+3. Khasan Akhmadiev, [hasaki77](https://github.com/hasaki77)
+4. Andrei Volodichev, [@ahdr3w](https://github.com/ahdr3w)
 
 
 ## License
 
-Copyright 2023 Karpukhin Sergey
+Copyright 2024 Komiakov Maksim
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
