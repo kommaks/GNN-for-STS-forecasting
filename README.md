@@ -1,4 +1,4 @@
-# GNN-for-STS-forecasting
+# Application of Graph Neural Network to spatial time series forecasting problem
 
 This repository includes our works on Graph representation learning and its application on Cash Demand Prediction.
 
