@@ -1,6 +1,6 @@
 # GNN-for-STS-forecasting
 
-This repository includes our works on Graph representation learning and its application on Cash Demand Prediction
+This repository includes our works on Graph representation learning and its application on Cash Demand Prediction.
 
 ## Requirements
 **Create enviroment in Conda**
@@ -45,13 +45,27 @@ The manuscript can be visited at https://www.mdpi.com/2220-9964/10/7/485/html or
 3) StemGNN is a Graph-based multivariate time-series forecasting model. StemGNN jointly learns temporal dependencies and inter-series correlations in the spectral domain, by combining Graph Fourier Transform (GFT) and Discrete Fourier Transform (DFT).
 
 The manuscript can be visited at https://www.semanticscholar.org/paper/Spectral-Temporal-Graph-Neural-Network-for-Cao-Wang/645054d31fa26b29bbfb0cf73b75f8906c359415 or arxiv https://arxiv.org/abs/2103.07719
-[The code](https://github.com/microsoft/StemGNN)https://github.com/microsoft/StemGNN
+[The code](https://github.com/microsoft/StemGNN)
+
+## Results
+
+We compared muptivariate GNN - based models with baseline. We calculated RMSE and WMAPE metrics for them.
+| Models | RMSE | MAPE(%) |
+| -----   | ---- | ---- |
+| GCN | 0.027 | 43.18 % |
+| GRU | 0.023 | 36.3 % |
+| T-GCN | 0.025 | 37.79 % |
+| A3T-GCN | 0.01973 | 31.11 % |
+| StemGNN | - | 32.2 $\pm$ 1.4 % |
+| Prophet | 0.023 | 30.01 % |
+|  |  | (Best: 29.1 %) |
+
 
 ## Authors
 
 1. Maksim Komiakov, [@kommaks](https://github.com/kommaks)
 2. Michil Trofimov, [@michtrofimov](https://github.com/michtrofimov)
-3. Khasan Akhmadiev, [hasaki77](https://github.com/hasaki77)
+3. Khasan Akhmadiev, [@hasaki77](https://github.com/hasaki77)
 4. Andrei Volodichev, [@ahdr3w](https://github.com/ahdr3w)
 
 
