@@ -44,7 +44,8 @@ The manuscript can be visited at https://www.mdpi.com/2220-9964/10/7/485/html or
 
 3) StemGNN is a Graph-based multivariate time-series forecasting model. StemGNN jointly learns temporal dependencies and inter-series correlations in the spectral domain, by combining Graph Fourier Transform (GFT) and Discrete Fourier Transform (DFT).
 
-The manuscript can be visited at [https://www.mdpi.com/2220-9964/10/7/485/html](https://www.semanticscholar.org/paper/Spectral-Temporal-Graph-Neural-Network-for-Cao-Wang/645054d31fa26b29bbfb0cf73b75f8906c359415)https://www.semanticscholar.org/paper/Spectral-Temporal-Graph-Neural-Network-for-Cao-Wang/645054d31fa26b29bbfb0cf73b75f8906c359415 or arxiv https://arxiv.org/abs/2103.07719
+The manuscript can be visited at https://www.semanticscholar.org/paper/Spectral-Temporal-Graph-Neural-Network-for-Cao-Wang/645054d31fa26b29bbfb0cf73b75f8906c359415 or arxiv https://arxiv.org/abs/2103.07719
+[The code](https://github.com/microsoft/StemGNN)https://github.com/microsoft/StemGNN
 
 
 
